@@ -1,0 +1,234 @@
+/*================
+==========FONT===
+=================*/
+
+h1 {
+	
+}
+
+
+
+h2{
+	 
+
+}
+
+h3{
+
+
+}
+p {
+	font-family:"roboto";
+	font-weight: 300;
+
+}
+
+
+
+/*================
+======Global======
+=================*/
+body{
+	height:1200px;
+	background-color:grey;
+	width:100%;
+}
+
+#wrapper{
+width: 960px;
+height: auto;
+margin: 10px auto 20px;
+
+}
+
+body p{
+color:#fff;
+}
+
+
+/*================
+======HEADER======
+=================*/
+
+header {
+	background-color:white;
+	height:150px;
+	margin-bottom: 10px;
+
+}
+
+
+
+
+/*================
+======MAIN====--==
+=================*/
+
+main{
+	height:1200px;
+	width:100%;
+	background-color:#ffdb19;
+	text-align:center;
+	overflow: hidden;
+}
+
+
+/*================
+======Row 1====--==
+=================*/
+#row1{
+width: 100%;
+overflow: hidden;
+margin: .5% .5%;
+padding:.5% .5%;
+display: inline-block;
+}
+figure{
+	margin:0;
+	padding:0;
+}
+
+
+
+#col1a{
+/*	width:30%;*/
+	background-color: #111;
+	margin: .5% auto;
+	padding:.25%;
+	display: inline-block;
+	border:1px solid black;
+
+}
+
+#col1b{
+/*	width:30%;*/
+	background-color: #111;
+	margin: .5% auto;
+	padding:.25%;
+	display: inline-block;
+	border:1px solid black;
+
+
+}
+
+#col1c{
+/*	width:30%;*/
+	background-color: #111;
+	margin: .5% auto;
+	padding:.25%;
+	display: inline-block;
+	border:1px solid black;
+
+
+}
+
+/*================
+======Row 2====--==
+=================*/
+#row2{
+width: 100%;
+overflow: hidden;
+margin: .5% .5%;
+padding:.5% .5%;
+display: inline-block;
+}
+figure{
+	margin:0;
+	padding:0;
+}
+
+#col2a{
+	width:30%;
+	border: 1px solid black;
+	background-color: #111;
+	margin: .5% .5%;
+	padding: .5%;
+	display: inline-block;
+
+}
+
+#col2b{
+	width:30%;
+	border: 1px solid black;
+	background-color: #111;
+	display: inline-block;
+	padding: .5%;
+
+}
+
+#col2c{
+	width:30%;
+	border: 1px solid black;
+	position:relative;
+	background-color: #111;
+	margin: .5% .5%;
+	padding: .5%;
+	display: inline-block;
+
+}
+
+/*================
+======Row 3====--==
+=================*/
+
+#row3{
+width: 100%;
+overflow: hidden;
+margin: .5% .5%;
+padding:.5% .5%;
+display: inline-block;
+}
+figure{
+	margin:0;
+	padding:0;
+}
+
+#col3a{
+	width:30%;
+	border:1px solid black;
+	background-color: #111;
+	margin: .5% .5%;
+	padding: .5%;
+	display: inline-block;
+	padding: .5%;
+}
+
+#col3b{
+	width:30%;
+	border: 1px solid black;
+	background-color: #111;
+	display: inline-block;
+	padding: .5%;
+
+
+}
+
+#col3c{
+	width:30%;
+	border:1px solid black;
+	background-color: #111;
+	margin: .5% .5%;
+	padding: .5%;
+	display: inline-block;
+	padding: .5%;
+
+}
+
+/*================
+==MEDIA QUERIES===
+=================*/
+
+@media screen and (max-width: 976px){
+
+    body, header, #wrapper{
+    width:100%;
+    height: 100%
+}
+body img{
+	width: 100%;
+	height:100%;
+}
+
+
+
+
